@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+  div {
+    border-radius: 1px;
+    border-color: red;
+    border-style: solid;
+}  
+
+.banner {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.webpage-top {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 0px 0px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px 50px 90px;
+}
+
+.top-left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink:
+}
+
+.main-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5em 2em;
+    margin: 0;
+    color: #e5e7eb;
+    font-weight: 900;
+    width: max-content;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.info-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex-wrap: wrap;
+    max-width: 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.blockquote {
+    background-color:#e5e7eb;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937
+}
+
+.footer {
+    background-color: #1f2937;
+
+}
